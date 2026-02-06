@@ -7,5 +7,25 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout>
-	<Welcome />
+  <main style="padding: 48px 24px; max-width: 1100px; margin: 0 auto; font-family: system-ui;">
+    <h1>TriAxis Resources</h1>
+    <p style="max-width: 70ch; font-size: 18px; line-height: 1.6;">
+      We are a South African commodities trading business focused on reliable supply, transparent processes, and long-term partnerships.
+    </p>
+
+    <div style="display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin-top: 28px;">
+      <div style="border: 1px solid rgba(255,255,255,0.12); border-radius: 14px; padding: 16px;">
+        <h3>Commodities</h3>
+        <p>Coal and related commodities.</p>
+      </div>
+      <div style="border: 1px solid rgba(255,255,255,0.12); border-radius: 14px; padding: 16px;">
+        <h3>Logistics</h3>
+        <p>Reliable loading and dispatch coordination.</p>
+      </div>
+      <div style="border: 1px solid rgba(255,255,255,0.12); border-radius: 14px; padding: 16px;">
+        <h3>Contact</h3>
+        <p>Email: info@triaxis.net.za</p>
+      </div>
+    </div>
+  </main>
 </Layout>
